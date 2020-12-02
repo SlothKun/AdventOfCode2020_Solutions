@@ -3,6 +3,8 @@
         "list": "cpp",
         "xstring": "cpp",
         "string": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xlocale": "cpp",
+        "xutility": "cpp"
     }
 }
