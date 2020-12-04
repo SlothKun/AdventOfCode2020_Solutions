@@ -5,6 +5,11 @@
         "string": "cpp",
         "iostream": "cpp",
         "xlocale": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "xtree": "cpp",
+        "map": "cpp",
+        "utility": "cpp"
     }
 }
