@@ -10,6 +10,9 @@
         "initializer_list": "cpp",
         "xtree": "cpp",
         "map": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "cmath": "cpp",
+        "algorithm": "cpp",
+        "xiosbase": "cpp"
     }
 }
