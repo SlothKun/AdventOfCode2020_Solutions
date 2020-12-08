@@ -13,6 +13,9 @@
         "utility": "cpp",
         "cmath": "cpp",
         "algorithm": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "istream": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp"
     }
 }
