@@ -16,6 +16,7 @@
         "xiosbase": "cpp",
         "istream": "cpp",
         "ios": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "fstream": "cpp"
     }
 }
