@@ -7,15 +7,18 @@
 
 using namespace std;
 
+int passport_count = 0;
 int main() {
     fstream my_file;
-    my_file.open("input/input.txt", ios::in);
+    my_file.open("input/input_aoc_day4.txt", ios::in);
     string line;
     
     vector <string> passport;
+    
     int valid_password = 0;
     bool cid_missing = true;
     const string delimiter = ":";
+
 
     while (1) {
         getline(my_file, line);
@@ -24,6 +27,7 @@ int main() {
             break;
         }
         else if (line.length() == 0) {
+            passport_count += 1;
             cout << "passport : " << passport.size() << "\n";
             if (passport.size() == 8) {
                 cout << "valid\n\n";
@@ -59,6 +63,7 @@ int main() {
             }
         }
     }
-    cout << valid_password;
+    cout << valid_password << '\n';
+    cout << passport_count;
     
 }

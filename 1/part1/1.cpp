@@ -28,7 +28,7 @@ int main() {
 
 	}
 	
-	// make the sum of each nb and stop when we have the sum
+	// make the sum of each nb and stop when we have the right sum (2020)
 	list <int> :: iterator fnb;
 	list <int> :: iterator snb;
 	int sum = 0;
