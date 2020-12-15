@@ -7,6 +7,11 @@
 #include <cmath>
 #include <map>
 
+/*
+Pense a l'exo comme un labyrinth, et commence par la sortie pour le résoudre
+essai de trouver une manière de faire non récursive, surtout avec loop et appel de fonction ?
+*/
+
 using namespace std;
  
 list<int> adapter;
