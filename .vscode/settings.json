@@ -21,6 +21,7 @@
         "type_traits": "cpp",
         "ostream": "cpp",
         "xlocnum": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "regex": "cpp"
     }
 }
