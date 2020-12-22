@@ -17,9 +17,9 @@ string ROOT_RULE = "0";
 int matched = 0;
 map<string, vector<vector<string>>> subrules;
 map<string, string> letter_rules;
-//vector<string> valid_combinaisons;
 string regex_str = "^";
 basic_regex<char> regexobj;
+
 void parseRule(string rule);
 void createRegex(string rulenb);
 void combinaisonChecker(string message);
