@@ -113,58 +113,6 @@ void createRegex(string rulenb) {
     regex_str += ")";
 }
 
-
-
-// TENTER AVEC DU REGEX
-
-/*
-string createCombinaison(string rulenb) {
-    for (auto letter : letter_rules) {
-        if (letter.first == rulenb) {
-            //valid_combinaisons.push_back(combinaison + letter.second);
-            return letter.second;
-        }
-    }
-
-        for (auto rules : subrules[rulenb]) {
-        string subcombi = combinaison;
-        for (auto sub_rule : rules) {
-            subcombi += createCombinaison(sub_rule);
-        }
-            cout << subcombi << "\n";
-    }
-
-    return "lol";
-}
-*/
-
-
-
-/*
-string createCombinaison(string rulenb, string combinaison) {
-    for (auto letter : letter_rules) {
-        if (letter.first == rulenb) {
-            //valid_combinaisons.push_back(combinaison + letter.second);
-            return letter.second;
-        }
-    }
-
-    for (auto rules : subrules) {
-        for (auto batch_rule : rules.second) {
-            string subcombi = combinaison;
-            for (auto sub_rule : batch_rule) {
-                subcombi += createCombinaison(sub_rule, subcombi);
-            }
-            cout << subcombi << "\n";
-        }
-    }
-    return "lol";
-}
-*/
-
-
-
-
 void parseRule(string rule) {
     string rulenb = rule.substr(0, rule.find(":"));
     rule.erase(0, rulenb.size()+2);
@@ -198,30 +146,3 @@ void parseRule(string rule) {
         subrules[rulenb] = parser;
     }
 }
-
-
-
-
-/*
-    PRINT ALL RULES
-
-    cout << "--- Letter rule ---\n";
-    for (auto rule : letter_rules) {
-        cout << rule.first << " : " << rule.second << "\n";
-    }
-
-    cout << "--- subrule ---\n";
-    for (auto rule : subrules) {
-        cout << rule.first << " : { ";
-        for (auto subrule : rule.second) {
-            cout << "{ ";
-            for (auto subsubrule : subrule) {
-                cout << subsubrule << ", ";
-            }
-            cout << "}, ";
-        }
-        cout << "}\n";
-    }
-
-
-*/
