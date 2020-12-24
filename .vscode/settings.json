@@ -22,6 +22,10 @@
         "ostream": "cpp",
         "xlocnum": "cpp",
         "bitset": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "locale": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xloctime": "cpp"
     }
 }

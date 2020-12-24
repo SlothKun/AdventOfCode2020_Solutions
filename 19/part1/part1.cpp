@@ -68,14 +68,13 @@ int main() {
     cout << "final result : " << matched << "\n";
 }
 
+
+
 void combinaisonChecker(string message) {
     if (regex_match(message, regexobj)) {
         matched++;
     }
 }
-
-
-
 
 void createRegex(string rulenb) {
     /*
